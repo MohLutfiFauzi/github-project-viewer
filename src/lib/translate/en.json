@@ -1,0 +1,11 @@
+{
+  "description": "Search and explore GitHub users' projects along with their detailed README files.",
+  "search": "Search...",
+  "viewReadme": "View Readme",
+  "pageNotFound": "Page not found",
+  "sorry": "Sorry, we couldn't find the page you're looking for. It might have been removed or you may have typed the URL incorrectly.",
+  "backToHome": "Go back Home",
+  "noReposFound": "No repositories found for {{username}}.",
+  "reposWillAppear": "Repositories will appear here once you search for a user.",
+  "noReadmeFound": "No README found."
+}

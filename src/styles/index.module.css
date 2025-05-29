@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  --heading-font: "Bebas Neue", sans-serif;
+
+  --text-color: #1f2328;
+  --bg-color: #f6f8fa;
+  --bg-card-color: #f6f8fa;
+  --white-color: #ffffff;
+  --primary-color: #1f6feb;
+  --secondary-color: #586069;
+  --icon-color: #333;
+}
+
+[data-theme="dark"] {
+  --text-color: #ffffff;
+  --bg-color: #0d1117;
+  --bg-card-color: #0d1117;
+  --primary-color: #1f6feb;
+  --secondary-color: #586069;
+  --icon-color: #fff;
+}
+
+body,
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+}

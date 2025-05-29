@@ -1,0 +1,10 @@
+.footer {
+  background-color: var(--bg-color);
+  color: white;
+  padding: 1rem 2rem;
+  position: sticky;
+  font-size: 28px; /* ini mengatur ukuran icon */
+  color: var(--icon-color); /* ini mengatur warna icon */
+  width: 100%;
+  text-align: center;
+}

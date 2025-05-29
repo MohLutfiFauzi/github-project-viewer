@@ -1,0 +1,11 @@
+{
+  "description": "Cari dan jelajahi proyek para pengguna GitHub beserta file README mereka yang lengkap.",
+  "search": "Cari...",
+  "viewReadme": "Lihat Readme",
+  "pageNotFound": "Halaman Tidak Ditemukan",
+  "sorry": "Maaf, kami tidak dapat menemukan halaman yang Anda cari. Halaman tersebut mungkin telah dihapus atau Anda mungkin salah mengetik alamat URL.",
+  "backToHome": "Kembali ke Halaman Utama",
+  "noReposFound": "Tidak ditemukan repositori untuk pengguna {{username}}.",
+  "reposWillAppear": "Repositori akan muncul di sini setelah kamu mencari pengguna.",
+  "noReadmeFound": "README tidak ditemukan."
+}

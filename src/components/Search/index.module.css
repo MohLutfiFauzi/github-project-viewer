@@ -1,0 +1,23 @@
+.formSearch {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+  max-width: 949px;
+  padding: 1rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.75rem;
+  margin-top: 3rem;
+  background-color: var(--white-color);
+  color: var(----secondary-color);
+}
+
+.search:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}

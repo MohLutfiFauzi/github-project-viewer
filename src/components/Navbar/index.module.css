@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: relative;
+  background-color: var(--bg-color);
+}
+
+.logo {
+  width: 40px;
+}
+
+.navConfig {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Button Darkmode */
+.toggleDarkmode {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 2px;
+  font-size: 24px; /* ini mengatur ukuran icon */
+  color: var(--text-color); /* ini mengatur warna icon */
+}

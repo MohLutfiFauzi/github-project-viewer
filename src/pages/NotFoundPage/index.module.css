@@ -1,0 +1,47 @@
+.container {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  height: 90vh;
+  border-block: 1px solid #e1e4e8;
+}
+
+.code {
+  font-size: 9rem;
+  font-weight: 700;
+  margin: 0;
+  user-select: none;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.message {
+  max-width: 400px;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+.homeButton {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.homeButton:hover {
+  background-color: #0b63ce;
+}

@@ -1,0 +1,23 @@
+.readmeMessage {
+  text-align: center;
+  max-width: 740px;
+  margin: 4rem auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #444;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.readmeMessage.loading {
+  background-color: #fffbe6;
+  color: #a17f00;
+}
+
+.readmeMessage.empty {
+  background-color: #ffe6e6;
+  color: #cc0000;
+}

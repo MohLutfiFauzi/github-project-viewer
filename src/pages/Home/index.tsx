@@ -25,8 +25,6 @@ const Home = () => {
               key={repo.id}
               title={repo.name}
               description={repo.description}
-              link={repo.html_url}
-              language={repo.language}
             />
           ))}
         </div>

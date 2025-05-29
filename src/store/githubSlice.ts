@@ -26,12 +26,18 @@ const initialState: GithubState = {
   error: null,
 };
 
+const token = import.meta.env.VITE_GITHUB_TOKEN;
+
 export const fetchRepos = createAsyncThunk<
   Repo[],
   string,
   { rejectValue: string }
 >("github/fetchRepos", async (username, { rejectWithValue }) => {
-  const res = await fetch(`https://api.github.com/users/${username}/repos`);
+  const res = await fetch(`https://api.github.com/users/${username}/repos`, {
+    headers: {
+      Authorization: `token ${token}`,
+    },
+  });
   if (!res.ok) {
     return rejectWithValue(`User '${username}' not found on GitHub`);
   }
@@ -43,7 +49,12 @@ export const fetchReadme = createAsyncThunk(
   "github/fetchReadme",
   async ({ username, repo }: { username: string; repo: string }) => {
     const res = await fetch(
-      `https://api.github.com/repos/${username}/${repo}/readme`
+      `https://api.github.com/repos/${username}/${repo}/readme`,
+      {
+        headers: {
+          Authorization: `token ${token}`,
+        },
+      }
     );
     const data = await res.json();
     return decodeURIComponent(escape(atob(data.content)));
